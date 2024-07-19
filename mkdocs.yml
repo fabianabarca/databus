@@ -1,0 +1,16 @@
+site_name: Databús app
+theme:
+  name: material
+  palette:
+    primary: "red"
+    accent: "red"
+nav:
+  - Inicio: index.md
+  - Arquitectura: arquitectura.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
